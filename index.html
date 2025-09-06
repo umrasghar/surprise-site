@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Beautiful Aqsa | From Umar with Love</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <h1 class="main-title">
+                Happy Birthday
+            </h1>
+            <h2 class="sub-title">
+                My Beautiful Aqsa
+            </h2>
+            <p class="author">
+                A Letter From Your Loving Husband, Umar
+            </p>
+        </div>
+        
+        <!-- Envelope Section -->
+        <div class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="envelope-base"></div>
+                <div class="envelope-flap"></div>
+                <div class="heart-stick" onclick="openLetter()">
+                    <i class="fas fa-heart heart-icon"></i>
+                    <div class="stick"></div>
+                </div>
+                
+                <div class="letter">
+                    <div style="text-align: center; font-size: 0.6rem; color: #7b1fa2; font-family: 'Dancing Script', cursive;">
+                        My Dearest Aqsa...
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="instructions" id="instructions">
+            <p>
+                <i class="fas fa-hand-pointer"></i>
+                Click on the heart to open your special letter
+            </p>
+        </div>
+    </div>
+    
+    <!-- Full Screen Letter Modal -->
+    <div class="letter-modal" id="letterModal">
+        <button class="close-letter" onclick="closeLetter()">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <div class="letter-modal-content">
+            <div class="letter-header">
+                <h3 class="letter-title">My Dearest Aqsa</h3>
+                <p class="letter-subtitle">From the heart of your loving husband</p>
+            </div>
+            
+            <div class="letter-content">
+                <div class="romantic-opener">
+                    "Meri jaan, meri beautiful Aqsa... ❤️"
+                </div>
+                
+                <p>
+                    My love, my wife, my janiii - today marks another beautiful year of your precious life, and I thank Allah SWT for blessing me with you.
+                </p>
+                
+                <p>
+                    <span class="highlight">May Allah bless you</span> with endless happiness, good health, and long life. May He shower His mercy upon you today and always, my beautiful Aqsa.
+                </p>
+                
+                <p>
+                    You are not just my wife, but my companion for this dunya and insha'Allah for Jannah too. <span class="romantic-text">I pray that Allah makes our path together easy</span> and fills our home with barakah and love.
+                </p>
+                
+                <div class="arabic-dua">
+                    "اللَّهُمَّ بَارِكْ لَهَا فِي عُمْرِهَا"<br>
+                    <span class="translation">(O Allah, bless her in her age)</span>
+                </div>
+                
+                <p>
+                    My darling, you make every day brighter with your smile. May this new year of your life bring you closer to your dreams and to Allah's blessings.
+                </p>
+                
+                <div class="letter-signature">
+                    <p class="love-text">
+                        With all my love and duas,
+                    </p>
+                    <p class="signature">
+                        Your Umar ❤️
+                    </p>
+                </div>
+                
+                <!-- Photo Gallery Button -->
+                <div class="photo-button-container">
+                    <button onclick="openGallery()" class="gallery-btn">
+                        <i class="fas fa-images"></i>
+                        See Our Beautiful Memories
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Photo Gallery Modal -->
+    <div class="photo-gallery" id="photoGallery">
+        <div class="gallery-container">
+            <button class="close-gallery" onclick="closeGallery()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <button class="nav-btn prev" onclick="previousPhoto()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="photo-frame">
+                <img class="photo-img" id="currentPhoto" src="" alt="Our Beautiful Memory">
+                <div class="photo-caption" id="photoCaption"></div>
+            </div>
+            
+            <button class="nav-btn next" onclick="nextPhoto()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <!-- Photo counter -->
+            <div class="photo-counter">
+                <span id="photoCounter">1 / 5</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

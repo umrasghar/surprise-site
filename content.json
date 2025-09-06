@@ -1,0 +1,39 @@
+{
+  "photos": [
+    {
+      "src": "images/1.jpg",
+      "caption": "My heart melts watching you cut your birthday cake while I clap like the happiest husband in the world 🎂👏❤️"
+    },
+    {
+      "src": "images/2.jpg", 
+      "caption": "The same magical moment captured from another angle - your smile lighting up the entire room, meri jaan 😍✨"
+    },
+    {
+      "src": "images/3.jpg",
+      "caption": "You lovingly feeding me cake with your gentle hands - this sweetness will forever be in my heart 🍰💕"
+    },
+    {
+      "src": "images/4.jpg",
+      "caption": "My turn to feed you while we both burst into laughter - these giggles are the soundtrack of our love 😄🎂💖"
+    },
+    {
+      "src": "images/5.jpg",
+      "caption": "After all the cake fun, holding you close and kissing your forehead - my favorite place in the world 💕😘🤗"
+    }
+  ],
+  "messages": {
+    "title": "Happy Birthday My Beautiful Aqsa",
+    "subtitle": "From Your Loving Husband, Umar",
+    "letterGreeting": "My Dearest Aqsa",
+    "letterSubtitle": "From the heart of your loving husband",
+    "islamicBlessing": "اللَّهُمَّ بَارِكْ لَهَا فِي عُمْرِهَا",
+    "blessingTranslation": "(O Allah, bless her in her age)",
+    "galleryButtonText": "See Our Beautiful Memories"
+  },
+  "settings": {
+    "floatingHeartsEnabled": true,
+    "heartInterval": 1500,
+    "animationDuration": 4000,
+    "mobileOptimizations": true
+  }
+}
